@@ -13,8 +13,6 @@ Then you have two choices :
 
 2. Use your own postgresql database hosted on neon (use this stacks because it's already configured) that way you can connect with your own environment variables.
 after that you can run the following command to add schema and seed the database with the shows data :
-
-
 ```bash
 npm run db:push    # create tables in Neon
 npm run db:seed    # insert the shows
